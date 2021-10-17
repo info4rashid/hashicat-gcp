@@ -1,4 +1,4 @@
-module "network" {
+module "vpc" {
   source  = "info4rashid/terraform-google-network"
   version = "3.4.0"
   network_name = "gaurav-network"
